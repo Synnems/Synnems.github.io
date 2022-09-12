@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computer Store</title>
     <script src="index.js" defer></script>
-    <script src="app.js" defer></script>
+    <script src="computers.js" defer></script>
 </head>
 <div class="page-header">
     <h1>🖤 Computer store 🖤</h1>
@@ -31,7 +31,7 @@
             </div>
             <div class="laptop-class col-md-3 m-3">
                 <h2>Laptops</h2>
-                <select name="computers" id="computers">
+                <select name="computers" id="computers" class="form-control">
                     <option value="none" selected disabled hidden>Select an Option</option>
                 </select>
                 <h5 id="features">Features:</h5>
@@ -49,7 +49,7 @@
                 </div>
                 <div class="t3">
                     <h5 id="laptop-price"></h5>
-                    <Button id="buy-button" class="btn">BUY NOW</Button>
+                    <Button id="buy-button" class="btn" onclick="buyLaptop()">BUY NOW</Button>
                 </div>               
             </div>
         </div>
