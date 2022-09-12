@@ -1,0 +1,81 @@
+body{
+   background-color: rgb(243, 236, 241);
+}
+
+.bank-class, .work-class, .laptop-class, .laptop-display{
+   background-color: rgb(233, 218, 232);
+   padding: 2%;
+   box-shadow: 4px 3px 8px 1px #969696;
+  	-webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
+
+.laptop-display{
+   width:79%;
+   height:300px;
+}
+
+.page-header{
+   background-image: url("https://image.freepik.com/free-photo/pink-marble-texture-background-with-high-resolution-interior-decoration_38607-305.jpg");
+   background-color: rgb(219, 184, 216);
+   color: white;
+   border-radius: 5px;
+   height: 70px;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.page-header h1{
+   padding-left: 1%;
+   padding-top: 0.5%;
+   font-family: "Lucida Console", "Courier New", monospace;
+}
+select{
+   width: 220px;
+   margin:2%;
+   padding: 1%;
+   border-radius:5px;
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("https://tse4.mm.bing.net/th/id/OIP.kG6hvDU4QiLsonyyKlEcjAHaGl?pid=ImgDet&rs=1") 90% / 10% no-repeat #fff;
+}
+#computer-specs p {
+   margin: 0;
+}
+
+.t1 {
+   float:left;
+   width:200px;
+   height:200px;
+}
+.t2 {
+   float:left;
+   width:500px;
+   height:200px;
+   margin-left:20px;
+   margin-top: 20px;
+}
+.t3 {
+   margin-top: 50px;
+   margin-right: 30px;
+   float:right;
+   width:180px;
+   height:160px;
+}
+
+.t3 button{
+   margin-top: 20px;
+   width:180px;
+   font-weight: bold;
+}
+.t3 h5{
+   text-align: center;
+}
+
+.work-class button{
+   margin-top: 39px;
+   margin-right: 10px;
+}
+
+.btn{
+   background-color: rgb(239, 194, 231);
+   font-weight: bold;
+}
