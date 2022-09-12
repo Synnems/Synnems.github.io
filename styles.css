@@ -10,8 +10,9 @@ body{
 }
 
 .laptop-display{
-   width:79%;
+   width:85%;
    height:300px;
+   overflow: auto;
 }
 
 .page-header{
@@ -27,6 +28,8 @@ body{
    padding-top: 0.5%;
    font-family: "Lucida Console", "Courier New", monospace;
 }
+
+
 select{
    width: 220px;
    margin:2%;
