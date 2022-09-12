@@ -51,7 +51,7 @@ function getLoan(){
 
 //Called when work button is clicked
 function workBtn(){
-    customer.pay+=100 //Adds 100 to customer pay
+    customer.pay+=100 //Adds 100 to customers pay
     updateValues()
 }
 
