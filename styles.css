@@ -31,18 +31,18 @@ body{
    width: 0.5vmin;
    aspect-ratio: 1;
    background:
-     radial-gradient(circle, rgb(158, 43, 131) 0.2vmin, #0000 0) 50% 00%,
-     radial-gradient(circle, rgb(195, 56, 68) 0.3vmin, #0000 0) 00% 50%,
-     radial-gradient(circle, rgb(88, 64, 221) 0.5vmin, #0000 0) 50% 99%,
-     radial-gradient(circle, rgb(158, 43, 131) 0.2vmin, #0000 0) 99% 50%,
-     radial-gradient(circle, rgb(189, 243, 89) 0.3vmin, #0000 0) 80% 90%,
-     radial-gradient(circle, rgb(158, 43, 131) 0.5vmin, #0000 0) 95% 90%,
-     radial-gradient(circle, rgb(86, 188, 88) 0.5vmin, #0000 0) 10% 60%,
-     radial-gradient(circle, rgb(46, 213, 250) 0.2vmin, #0000 0) 31% 80%,
-     radial-gradient(circle, rgb(136, 81, 159) 0.3vmin, #0000 0) 80% 10%,
-     radial-gradient(circle, rgb(158, 43, 131) 0.2vmin, #0000 0) 90% 23%,
-     radial-gradient(circle, rgb(50, 199, 95) 0.3vmin, #0000 0) 45% 20%,
-     radial-gradient(circle, rgb(103, 58, 219) 0.5vmin, #0000 0) 13% 24%
+     radial-gradient(circle, rgb(255, 8, 197) 0.2vmin, #0000 0) 50% 00%,
+     radial-gradient(circle, rgb(255, 25, 45) 0.3vmin, #0000 0) 00% 50%,
+     radial-gradient(circle, rgb(97, 69, 255) 0.5vmin, #0000 0) 50% 99%,
+     radial-gradient(circle, rgb(255, 53, 208) 0.2vmin, #0000 0) 99% 50%,
+     radial-gradient(circle, rgb(191, 255, 72) 0.3vmin, #0000 0) 80% 90%,
+     radial-gradient(circle, rgb(255, 236, 65) 0.5vmin, #0000 0) 95% 90%,
+     radial-gradient(circle, rgb(138, 255, 140) 0.5vmin, #0000 0) 10% 60%,
+     radial-gradient(circle, rgb(59, 219, 255) 0.2vmin, #0000 0) 31% 80%,
+     radial-gradient(circle, rgb(211, 107, 255) 0.3vmin, #0000 0) 80% 10%,
+     radial-gradient(circle, rgb(255, 137, 40) 0.2vmin, #0000 0) 90% 23%,
+     radial-gradient(circle, rgb(76, 255, 130) 0.3vmin, #0000 0) 45% 20%,
+     radial-gradient(circle, rgb(139, 93, 255) 0.5vmin, #0000 0) 13% 24%
      ;
    background-size: 0.5vmin 0.5vmin;
    background-repeat: no-repeat;

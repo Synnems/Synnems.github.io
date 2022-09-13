@@ -1,6 +1,7 @@
 # Computer Store 
 A Dynamic Webpage using vanilla JavaScript, HTML, Bootstrap and CSS.
-
+## Wireframe
+![Diagram - Untitled.png](./Diagram - Untitled.png)
 ## Hosted at
 https://synnems.github.io./
 

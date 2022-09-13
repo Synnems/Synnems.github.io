@@ -81,11 +81,11 @@ function buyLaptop(){ //Called when buy laptop button is clicked
 }
 
 // ------------------------------------------------------------------------------- Hide elements at default
-function hideOnDefault(){ //Hides features and computer display when no computers are chosen
+function hideOnDefault(){ //Hides features, fireworks, slider and computer at default
     buyDiv.style.display = "none"
     features.style.display = "none"
     firework.style.visibility = "hidden"
-    document.getElementById("slider").style.visibility="hidden"
+    slider.style.visibility="hidden"
     
 }
 hideOnDefault()
