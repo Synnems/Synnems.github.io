@@ -8,6 +8,8 @@ updateValues()
 
 //Updates HTML values with conditions.
 function updateValues(){
+    firework.style.visibility = "hidden"
+    slider.style.visibility="hidden"
     const customerDisplay = document.getElementById("bank-display")
     customerDisplay.innerText = "Balance: " + customer.balance + " Kr"
     const payDisplay = document.getElementById("pay-display")
@@ -89,3 +91,4 @@ function repayLoan(){
         updateValues()
     }
 }
+

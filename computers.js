@@ -8,6 +8,8 @@ const laptopPrice = document.getElementById("laptop-price")
 const buyBtn = document.getElementById("buy-button")
 const buyDiv = document.getElementById("laptop-buy-row")
 const features = document.getElementById("features")
+const firework = document.getElementById("firework")
+const slider = document.getElementById("slider")
 
 //Array to store computer values in.
 let computers = [];
@@ -49,6 +51,8 @@ const handleComputerChange = e =>{
         computerSpecsElement.appendChild(document.createTextNode(selectedComputers.specs[i]));
         computersSpecs.appendChild(computerSpecsElement)
     }
+    firework.style.visibility = "hidden"
+    slider.style.visibility="hidden"
     laptopName.innerText = selectedComputers.title //Sets title for selected computer.
     laptopDescription.innerText = selectedComputers.description //Sets description for selected computer.
     laptopPrice.innerText = selectedComputers.price + " NOK" //Sets price for selected computer.
@@ -68,6 +72,8 @@ function buyLaptop(){ //Called when buy laptop button is clicked
         alert("You are now the owner of a new laptop!")
         customer.balance-=price //Remove spent money in balance.
         updateValues()
+        firework.style.visibility = "visible"
+        slider.style.visibility="visible"
     }
     else{ //If not enough money in balance
         alert("You do not have enough money in your balance to buy this laptop.")
@@ -78,5 +84,8 @@ function buyLaptop(){ //Called when buy laptop button is clicked
 function hideOnDefault(){ //Hides features and computer display when no computers are chosen
     buyDiv.style.display = "none"
     features.style.display = "none"
+    firework.style.visibility = "hidden"
+    document.getElementById("slider").style.visibility="hidden"
+    
 }
 hideOnDefault()
